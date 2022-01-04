@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +6,31 @@
 }
 
 body {
-  font-family: "Roboto", "sans-serif";
+  background-color: #8e44ad;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-
   height: 100vh;
   overflow: hidden;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+  text-align: center;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 650px) {
+  body {
+    flex-direction: column;
+  }
 }
