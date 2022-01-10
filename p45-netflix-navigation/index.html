@@ -9,10 +9,46 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <title>Project</title>
+    <title>Nerflix Mobile Navigation</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <button class="nav-btn open-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
+      alt="Logo"
+      class="logo"
+    />
+    <p class="text">Mobile Navigation</p>
+
+    <div class="nav nav-black visible">
+      <div class="nav nav-red visible">
+        <div class="nav nav-white visible">
+          <button class="nav-btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
+            alt="Logo"
+            class="logo"
+          />
+          <ul class="list">
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Life at Netflix</a></li>
+            <li>
+              <ul>
+                <li><a href="#">Netflix culture memo</a></li>
+                <li><a href="#">Work life balance</a></li>
+                <li><a href="#">Inclusion & diversity</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
