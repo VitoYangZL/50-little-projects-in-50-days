@@ -9,10 +9,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <title>Project</title>
+    <title>Live User Filter</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <header class="header">
+          <h4 class="title">Live User Filter</h4>
+          <small class="subtitle">Search By Name and/or Location</small>
+          <input type="text" id="filter" placeholder="Search" />
+        </header>
+        
+        <ul id="result" class="user-list">
+          <li>
+            <h3>Loading...</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
