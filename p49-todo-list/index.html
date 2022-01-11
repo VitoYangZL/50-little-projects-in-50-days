@@ -9,11 +9,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
-    <title>Project</title>
+    <title>Todo List</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
-
+    <h1>todos</h1>
+    <form id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter ur todo "
+        autocomplete="off"
+      />
+      <ul class="todos" id="todos"></ul>
+    </form>
+    <small
+      >Left Click to toggle completed.<br />
+      Right Click to delete todo.
+    </small>
     <script src="script.js"></script>
   </body>
 </html>
